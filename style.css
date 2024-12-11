@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(baum.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.app-main {
+    max-width: 600px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: rgb(255, 171, 222);
+    margin-top: 22%;
+
+   
+
+}
+
+.input-box {
+    padding-top: 200px;
+    width: 100%;
+    padding:5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: #ffffff;
+    background-color: rgb(204, 78, 166);
+}
+
+
+.weather-body .location-details, .weather-body .weather-status {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .app-main {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .input-box {
+        padding: 8px;
+    }
+}
+     
